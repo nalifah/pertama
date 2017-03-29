@@ -1,0 +1,40 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Penggunaan Form</title>
+</head>
+
+<!--Input-->
+
+<body>
+<center>
+<form>
+<table border=1 width="240">
+<tr><th colspan="2" align=center> Penjualan </th> </tr>
+<tr> <td size=20% align=left> Nama Barang </td>
+     <td> <input type="text" name="txt_nama" size=25 /></td></tr>
+ <tr> <td align=left> Harga </td>
+     <td> <input type="text" name="txt_harga" size=25 /></td></tr> 
+ <tr> <td align=left> Quantity </td>
+     <td> <input type="text" name="txt_qty" size=5 /></td></tr> 
+ <tr> <td colspan="2" align="center"> 
+ <input type="submit" name="btn_submit" value="submit" />
+ <input type="reset" /> </td></tr>
+</table>
+</form>
+
+<!--Output-->
+<table border=1 width="300">
+<tr><th colspan=2 align=center> Data Penjualan </th></tr>
+<tr><td size=20% align=left> Nama Barang </td>
+     <td>   </td>  </tr>
+ <tr><td align=left> Harga </td>
+     <td>   </td>  </tr> 
+ <tr><td align=left> Quantity </td>
+     <td>   </td>  </tr> 
+</table>
+
+</center>
+</body>
+</html>
